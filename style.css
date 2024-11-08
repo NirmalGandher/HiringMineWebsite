@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px;
+    font-size: 30px;
+}
+.container1 li{
+    list-style: none;
+
+}
+.container1 li button{
+    border: none;
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: blue;
+    margin-bottom: 30px;
+}
+.para1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.textarea{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 100px;
+
+
+}
+.textarea input{
+    width: 500px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.btn{
+    display: flex;
+    
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    left: 45%;
+    color: white;
+    background-color: blue;
+}
+.btn :hover{
+    background: skyblue;
+    
+    
+}
+
+.container2 {
+max-width: 800px; /* Adjust as needed */
+margin: 20px auto;
+}
+
+.row {
+display: flex;
+justify-content: space-evenly;
+margin: 20px;
+justify-content: center;
+gap: 10px; /* Adjust gap between boxes */
+}
+
+.box {
+width: calc(50% - 10px); /* 50% width minus gap */
+background-color: #ddd;
+color: blue;
+padding: 20px;
+box-sizing: border-box;
+text-align: center;
+border: 5px;
+border-radius: 30px;
+border-color: blue;
+}
+.boxes1 , .boxes2 , .boxes3 , .boxes4 , .boxes5{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    background: rgb(185, 213, 228);
+    border-radius: 20px;
+}
+
+.img7{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+
+#container{
+border: 6px solid black;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+flex-wrap: no-wrap;
+
+}
+.flex-item{
+color: white;
+font-size: 1.5rem;
+padding: 1rem;
+text-align: center;
+}
+
+#jobs{
+width: 300px;
+height: 250px;
+background: rgb(224, 229, 231);
+margin-top: 20px;
+display: flex;
+
+
+}
+
+#pak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:rgb(179, 151, 151);
+    margin-top: 50px;
+    border: none;
+    
+
+}
+.container {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: ghostwhite;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    width: 45%;
+}
+.right {
+    width: 30%;
+    margin-right: 0px;
+}
+.logo {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.picture-row {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+
+.picture-container {
+margin: 0 10px;
+}
+
+.picture-container img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+.vertical-line {
+width: 2px;
+height: 100px; /* Adjust height of the line as needed */
+background-color: blue;
+margin: 0 20px;
+}
+
+
+.picture-container h2 {
+margin-top: 10px;
+font-size: 20px;
+color: #555;
+}
+
+.picture-container button {
+margin-top: 10px;
+padding: 10px 20px;
+font-size: 16px;
+color:rgb(55, 0, 255);
+background: rgb(249, 251, 252);
+
+border: none;
+cursor: pointer;
+border: 2px;
+border-radius: 20px;
+border-color: rgb(122, 119, 126);
+}
+
+.picture-container button:hover {
+background-color: skyblue;
+}
+
+
+footer {
+    background-color: blue;
+
+   align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
+
+footer h1, footer h2, footer h3, footer p {
+    margin: 10px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
